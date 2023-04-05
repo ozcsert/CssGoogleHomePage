@@ -21,6 +21,19 @@
   text-decoration: underline;
 }
 
+.signin {
+  
+  font-weight: bold;
+  outline: none;
+  
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  height: 32px;
+  width: 80px;
+  
+  
+}
+
+
 .container {
   text-align: center;
   margin: 100px;
@@ -71,19 +84,25 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 
 .input-enter {
   display: flex;
-  flex: 1;
+  flex: 10;
   flex-wrap: wrap;
 }
 
 .input-area {
-  color: transparent;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
   flex: 100%;
-  white-space: pre;
-  font: 16px arial, sans-serif;
-  line-height: 34px;
-  height: 34px !important;
-  display: block;
+  -webkit-tap-highlight-color: transparent;
+
+  margin-top: 68px;
 }
+
 
 .input {
   margin: 0;
@@ -94,6 +113,8 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   display: flex;
   flex: 100%;
   margin-top: -68px;
+  margin-right: 380px;
+  width: 520px;
   font: 16px arial, sans-serif;
   line-height: 34px;
   height: 34px !important;
@@ -101,11 +122,14 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   letter-spacing: normal;
   word-spacing: normal;
   text-transform: none;
-  text-indent: 0px;
+  text-indent: 10px;
   text-shadow: none;
   text-align: start;
   appearance: textfield;
   cursor: text;
+  border-style:none ;
+ 
+
 }
 
 .googlesearch {
@@ -136,14 +160,16 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   position: fixed;
   bottom: 0;
   width: 100%;
-  margin-left: -8px;
+  margin-left: 0px;
   line-height: 10px;
   float: left;
+  list-style-type: none;
 
 }
 
 .footerli {
   float: left;
+  margin-right: 30px;
 }
 
 .footerli a {
@@ -160,6 +186,15 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 
 .footerli a:hover {
   text-decoration: underline;
+}
+
+.buttons {
+  text-align: center;
+}
+
+
+.floatright {
+  float: right;
 }
 
 
